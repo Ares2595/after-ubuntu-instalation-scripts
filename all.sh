@@ -38,4 +38,9 @@ sudo add-apt-repository ppa:peek-developers/stable
 sudo apt-get update
 sudo apt -y install grub-customizer
 sudo apt -y install peek
+
+#Python
 sudo apt -y install python3-distutils
+sudo apt -y install python3-pip
+
+
