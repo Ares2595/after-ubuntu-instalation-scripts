@@ -8,6 +8,7 @@ sudo apt-get update
 . psensor.sh
 . wifiIssues.sh
 . installJava8Oracle.sh
+. pinta.sh
 
 sudo apt -y install chromium-browser
 sudo apt -y install maven
@@ -27,14 +28,16 @@ sudo apt -y install gradle
 sudo apt -y install nodejs
 sudo apt -y install unrar
 
+sudo snap install hello # core lib for snap
 sudo snap install slack --classic
 sudo snap install intellij-idea-community --classic
 sudo snap install skype --classic
 sudo snap install --classic code
 sudo snap install spotify
+sudo snap install postman
 
-sudo add-apt-repository ppa:danielrichter2007/grub-customizer
-sudo add-apt-repository ppa:peek-developers/stable
+sudo add-apt-repository -y ppa:danielrichter2007/grub-customizer
+sudo add-apt-repository -y ppa:peek-developers/stable
 sudo apt-get update
 sudo apt -y install grub-customizer
 sudo apt -y install peek
