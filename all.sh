@@ -45,5 +45,7 @@ sudo apt -y install peek
 #Python
 sudo apt -y install python3-distutils
 sudo apt -y install python3-pip
+sudo apt -y install python3-dev
+sudo apt -y install python-dev libxml2-dev libxslt-dev libsasl2-dev
 
 
