@@ -35,6 +35,7 @@ sudo snap install skype --classic
 sudo snap install --classic code
 sudo snap install spotify
 sudo snap install postman
+sudo snap install dbeaver-ce --edge
 
 sudo add-apt-repository -y ppa:danielrichter2007/grub-customizer
 sudo add-apt-repository -y ppa:peek-developers/stable
